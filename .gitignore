@@ -1,0 +1,44 @@
+# Markdown documentation, except README files
+*.md
+!README.md
+!**/README.md
+
+# Presentations, PDFs, and images
+*.pptx
+*.ppt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
+
+# Python, Node, IDE, and environment files
+.venv/
+venv/
+__pycache__/
+node_modules/
+.env
+.idea/
+
+# Local model weights and compiled artifacts
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.class
+*.jar
+
+# Local runtime data and generated output
+.local-mysql/
+workspace-files/
+build/
+output/
+report-template-render/
+
+# Reports and archives
+*.docx
+*.zip
